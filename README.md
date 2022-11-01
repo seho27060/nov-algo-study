@@ -2,30 +2,38 @@
 
 ## ✅ 진행 상황
 
-| 11월                                                                            |                                                                                    |                                                                              |
-| ------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
-| 월                                                                              | 수                                                                                  | 금                                                                            |
-| **3**                                                                          | [**5**](https://github.com/seho27060/dec-algo-study/tree/master/1005)              | [**7**](https://github.com/seho27060/dec-algo-study/tree/master/1007)        |
-|                                                                                | [k진수에서 소수 개수 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/92335) | [보석 쇼핑](https://school.programmers.co.kr/learn/courses/30/lessons/67258)     |
-| **10**                                                                         | [**12**](https://github.com/seho27060/dec-algo-study/tree/master/1012)             | [**14**](https://github.com/seho27060/dec-algo-study/tree/master/1014)       |
-|                                                                                | [주차 요금 계산](https://school.programmers.co.kr/learn/courses/30/lessons/92341)        | [합승 택시 요금](https://school.programmers.co.kr/learn/courses/30/lessons/72413)  |
-| [**17**](https://github.com/seho27060/dec-algo-study/tree/master/1017)         | [**19**](https://github.com/seho27060/dec-algo-study/tree/master/1019)             | [**21**](https://github.com/seho27060/dec-algo-study/tree/master/1021)       |
-| [수식 최대화](https://school.programmers.co.kr/learn/courses/30/lessons/67257)      | [두 큐 합 같게 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/118667)   | [경주로 건설](https://school.programmers.co.kr/learn/courses/30/lessons/67259)    |
-| [**24**](https://github.com/seho27060/dec-algo-study/tree/master/1024)         | [**26**](https://github.com/seho27060/dec-algo-study/tree/master/1026)             | [**28**](https://github.com/seho27060/dec-algo-study/tree/master/1028)       |
-| [행렬 테두리 회전하기](https://school.programmers.co.kr/learn/courses/30/lessons/77485) | [거리두기 확인하기](https://school.programmers.co.kr/learn/courses/30/lessons/81302)       | [다단계 칫솔 판매](https://school.programmers.co.kr/learn/courses/30/lessons/77486) |
-| [**31**](https://github.com/seho27060/dec-algo-study/tree/master/1031)         |                                                                                    |                                                                              |
-| [순위 검색](https://school.programmers.co.kr/learn/courses/30/lessons/72412)       |                                                                                    |                                                                              |
+| 11월                                                                            |                                                                                |                                                                               |
+| ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------ | ----------------------------------------------------------------------------- |
+| 월                                                                              | 수                                                                              | 금                                                                             |
+|                                                                                | [**2**](https://github.com/seho27060/dec-algo-study/tree/master/1102)          | [**4**](https://github.com/seho27060/dec-algo-study/tree/master/1104)         |
+|                                                                                | [양궁대회](https://school.programmers.co.kr/learn/courses/30/lessons/92342)        | [파괴되지 않은 건물](https://school.programmers.co.kr/learn/courses/30/lessons/92344) |
+| [**7**](https://github.com/seho27060/dec-algo-study/tree/master/1107)          | [**9**](https://github.com/seho27060/dec-algo-study/tree/master/1109)          | [**11**](https://github.com/seho27060/dec-algo-study/tree/master/1111)        |
+| [[3차] n진수 게임](https://school.programmers.co.kr/learn/courses/30/lessons/17687) | [[3차] 파일명 정렬](https://school.programmers.co.kr/learn/courses/30/lessons/17686) | [양과 늑대](https://school.programmers.co.kr/learn/courses/30/lessons/92343)      |
+| [**14**](https://github.com/seho27060/dec-algo-study/tree/master/1114)         | [**16**](https://github.com/seho27060/dec-algo-study/tree/master/1116)         | [**18**](https://github.com/seho27060/dec-algo-study/tree/master/1118)        |
+| [[3차] 압축](https://school.programmers.co.kr/learn/courses/30/lessons/17684)     | [[3차] 방금그곡](https://school.programmers.co.kr/learn/courses/30/lessons/17683)   | [표 편집](https://school.programmers.co.kr/learn/courses/30/lessons/81303)       |
+| [**21**](https://github.com/seho27060/dec-algo-study/tree/master/1121)         | [**23**](https://github.com/seho27060/dec-algo-study/tree/master/1123)         | [**25**](https://github.com/seho27060/dec-algo-study/tree/master/1125)        |
+| [[1차] 프렌즈4블록](https://school.programmers.co.kr/learn/courses/30/lessons/17679) | [불량 사용자](https://school.programmers.co.kr/learn/courses/30/lessons/64064)      | [광고 삽입](https://school.programmers.co.kr/learn/courses/30/lessons/72414)      |
+| [**28**](https://github.com/seho27060/dec-algo-study/tree/master/1128)         |                                                                                |                                                                               |
+| [징검다리 건너기](https://school.programmers.co.kr/learn/courses/30/lessons/64062)    |                                                                                |                                                                               |
 
 ## 😀 참석 명단
 
 - 김광용 : yong
+
 - 문유주 : yuzu
+
 - 박세호 : seho
+
 - 변성도 : dooo
+
 - 윤정원 : won
+
 - 이동명 : dongdong
+
 - 정혜령 : hyry
+
 - 조영훈 : seulseul
+
 - 진주현 : jh
 
 ## ✨ 스터디 목적
@@ -63,4 +71,4 @@
 
 - 폴더는 문제가 제시된 날의 월과 일자로 설정한다.
   - 폴더의 README에는 제시된 문제의 링크를 추가한다.
-  - 소스코드는 `{}_{닉네임}.확장자명`으로 작성한다.
+  - 소스코드는 `{풀이월일}_{닉네임}.확장자명`으로 작성한다.
