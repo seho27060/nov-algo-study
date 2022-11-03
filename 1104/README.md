@@ -1,10 +1,10 @@
-# 1102 문제
+# 1104 문제
 
 ```
-양궁대회
+파괴되지 않은 건물
 ```
 
-https://school.programmers.co.kr/learn/courses/30/lessons/92342
+https://school.programmers.co.kr/learn/courses/30/lessons/92344
 
 ## Chek List
 
@@ -17,8 +17,6 @@ https://school.programmers.co.kr/learn/courses/30/lessons/92342
 > - [ ] jh
 > 
 > - [ ] seho
-> 
-> - [ ] seulseul
 > 
 > - [ ] won
 > 
