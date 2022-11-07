@@ -1,55 +1,32 @@
-# 누적합으로 시간복잡도를 줄였다는데...
-# 이런 것도 있구만....
-# 내 풀이는 틀렸다
+# 원리는 알았으니 복습용 풀기
+# 원리 아는게 더 어려웠다
+# 이게 카카오...?
 
 def solution(board, skill):
     answer = 0
+    arr = [[0] * (len(board[0])+1) for _ in range(len(board)+1)]
+
     for s in skill:
-        t, c1, r1, c2, r2, d = s
-        for i in range(c1, c2 + 1):
-            for j in range(r1, r2 + 1):
-                if t == 1:
-                    board[i][j] -= d
-                else:
-                    board[i][j] += d
+        t, r1, c1, r2, c2, v = s
+        v = v if t == 2 else v * (-1)
+        arr[r1][c1] += v
+        arr[r2+1][c2+1] += v
+        arr[r1][c2+1] += v *(-1)
+        arr[r2+1][c1] += v * (-1)
+
+    for i in range(len(board)+1):
+        for j in range(1, len(board[0])+1):
+            arr[i][j] += arr[i][j-1]
+
+    for i in range(1, len(board)+1):
+        for j in range(len(board[0]) + 1):
+            arr[i][j] += arr[i-1][j]
+
     for i in range(len(board)):
         for j in range(len(board[0])):
+            board[i][j] += arr[i][j]
             if board[i][j] > 0:
                 answer += 1
-
     return answer
 
-
-
-# https://kimjingo.tistory.com/155
-# 답안 코드....
-
-# def solution(board, skill):
-#     answer = 0
-#     tmp = [[0] * (len(board[0]) + 1) for _ in range(len(board) + 1)]  # 누적합 기록을 위한 배열
-#
-#     for type, r1, c1, r2, c2, degree in skill:
-#         # 누적합 기록, 부호에 주의할 것
-#         tmp[r1][c1] += degree if type == 2 else -degree
-#         tmp[r1][c2 + 1] += -degree if type == 2 else degree
-#         tmp[r2 + 1][c1] += -degree if type == 2 else degree
-#         tmp[r2 + 1][c2 + 1] += degree if type == 2 else -degree
-#
-#     # 행 기준 누적합
-#     for i in range(len(tmp) - 1):
-#         for j in range(len(tmp[0]) - 1):
-#             tmp[i][j + 1] += tmp[i][j]
-#
-#     # 열 기준 누적합
-#     for j in range(len(tmp[0]) - 1):
-#         for i in range(len(tmp) - 1):
-#             tmp[i + 1][j] += tmp[i][j]
-#
-#     # 기존 배열과 합함
-#     for i in range(len(board)):
-#         for j in range(len(board[i])):
-#             board[i][j] += tmp[i][j]
-#             # board에 값이 1이상인 경우 answer++
-#             if board[i][j] > 0: answer += 1
-#
-#     return answer
+solution([[1, 2, 3], [4, 5, 6], [7, 8, 9]], [[1, 1, 1, 2, 2, 4], [1, 0, 0, 1, 1, 2], [2, 2, 0, 2, 0, 100]])
