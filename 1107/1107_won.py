@@ -19,3 +19,4 @@ def solution(n, t, m, p):
         answer += tmp[p - 1]
         p += m
     return answer
+    
