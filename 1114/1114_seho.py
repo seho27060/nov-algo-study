@@ -11,7 +11,7 @@ def solution(msg):
             if msg[idx:idx+add] in alphabets:
                 findIdx = alphabets.index(msg[idx:idx+add])
                 if idx+add == len(msg):
-                    answer.append(alphabets.index(msg[idx:idx + add]) + 1)
+                    answer.append(findIdx + 1)
                     idx = len(msg)
                     break
             else:
