@@ -1,10 +1,10 @@
-# 1118 문제
+# 1130 문제
 
 ```
-표 편집 
+단체사진 찍기
 ```
 
-https://school.programmers.co.kr/learn/courses/30/lessons/81303
+https://school.programmers.co.kr/learn/courses/30/lessons/1835
 
 ## Chek List
 
@@ -12,7 +12,7 @@ https://school.programmers.co.kr/learn/courses/30/lessons/81303
 > 
 > - [ ] dongdong
 > 
-> - [x] hyry
+> - [ ] hyry
 > 
 > - [ ] jh
 > 
