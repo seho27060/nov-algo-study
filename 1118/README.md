@@ -12,7 +12,7 @@ https://school.programmers.co.kr/learn/courses/30/lessons/81303
 > 
 > - [ ] dongdong
 > 
-> - [ ] hyry
+> - [x] hyry
 > 
 > - [ ] jh
 > 
